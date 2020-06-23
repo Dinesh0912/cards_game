@@ -1,6 +1,4 @@
-Name of the game:  Cards_game
-
-Rules:
+#Rules:
 
     1.	This game is a poker cards based game.
     2.	The rules are simple.
@@ -10,10 +8,25 @@ Rules:
     6.	If you had, the opponent’s deck will be added to your deck.
     7.	That’s it and Enjoy The Game.
 
-User Manual:
+#User Manual:
 
     1.	Wait for your turn.
     2.	When your turn comes, press the button as per the player which you have been chosen.
     3.	Continue playing.
     4.	The winning announcement will be displayed on the top of the window.
     5.	If you want to start a new game, press the “New Game” button.
+
+IMPORTANT!
+
+THIS IS JUST A PYTHON FILE AND NOT AN EXECUTABLE FILE!
+
+        * Extract the zip folder 
+        * Open your command prompt.
+        * Navigate the directory into the zip folder.
+        * copy and paste the below command line.
+        
+       pip install pyinstaller
+       
+       pyinstaller --onefile -w cards_game
+       
+       * Delete the files: 

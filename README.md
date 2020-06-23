@@ -27,7 +27,7 @@ THIS IS JUST A PYTHON FILE AND NOT AN EXECUTABLE FILE!
         
        pip install pyinstaller
        
-       pyinstaller --onefile -w cards_game
+       pyinstaller --onefile -w cards_game.py
        
        * Delete the files: cards_game.spec & main.spec
        * Cut and paste the main file in the dist folder to the main directory.
